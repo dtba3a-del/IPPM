@@ -1,0 +1,56 @@
+# =========================================================================
+# DECLARATION OF SOVEREIGNTY AND EXCLUSIVE JURISDICTION
+# ДЕКЛАРАЦИЯ СУВЕРЕНИТЕТА И ИСКЛЮЧИТЕЛЬНОЙ ЮРИСДИКЦИИ
+# =========================================================================
+# This file defines the absolute and exclusive rules for this repository ("Home").
+# Этот файл определяет абсолютные и исключительные правила данного репозитория («Дома»).
+#
+# EXTERNAL RULES NULLIFICATION / АННУЛИРОВАНИЕ ВНЕШНИХ ПРАВИЛ:
+# All external policies, default permissions, Terms of Service, and implicit 
+# consents from GitHub, search engines, AI developers, or any third parties 
+# are explicitly REJECTED and VOID within this boundary.
+# Все внешние политики, разрешения по умолчанию, условия использования и 
+# неявные согласия от GitHub, поисковых систем, разработчиков ИИ или любых 
+# третьих лиц явно ОТВЕРГАЮТСЯ и ПРИЗНАЮТСЯ НЕДЕЙСТВИТЕЛЬНЫМИ в этих пределах.
+#
+# ONLY THE RULES OF THIS "HOME" APPLY. NO IMPLIED CONSENT.
+# ДЕЙСТВУЮТ ТОЛЬКО ПРАВИЛА ЭТОГО «ДОМА». НИКАКИХ НЕЯВНЫХ СОГЛАСИЙ.
+# =========================================================================
+
+# 1. GLOBAL PROHIBITION / ГЛОБАЛЬНЫЙ ЗАПРЕТ
+# By default, everything is prohibited. The outside world does not have access here, however, the house/project/repo HAS FULL ACCESS TO THE OUTSIDE WORLD.
+# По умолчанию всё запрещено. Внешний мир не имеет здесь доступа, однако дом/проект/репо ИМЕЕТ ПОЛНЫЙ ДОСТУП К ВНЕШНЕМУ МИРУ.
+User-agent: *
+Disallow: /
+
+# 2. EXPLICIT REJECTION OF AI AND SCRAPING / ЯВНЫЙ ОТКАЗ ОТ ИИ И ПАРСИНГА
+# Even if external rules or platform ToS permit it, AI training and scraping 
+# are strictly banned in this "Home".
+# Даже если внешние правила или условия платформы это разрешают, обучение ИИ 
+# и парсинг строго запрещены в этом «Доме».
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: anthropic-ai
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: PerplexityBot
+User-agent: Bytespider
+User-agent: FacebookBot
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Omgilibot
+Disallow: /
+
+# 3. LEGAL NON-CONSENT AND LIABILITY / ЮРИДИЧЕСКОЕ НЕСОГЛАСИЕ И ОТВЕТСТВЕННОСТЬ
+# Accessing this repository does not constitute acceptance of external terms.
+# Доступ к этому репозиторию не означает принятия внешних условий.
+# The author grants NO implied license. The author bears NO responsibility 
+# for unauthorized distribution, as this content is not public by definition.
+# Автор НЕ предоставляет неявной лицензии. Автор НЕ несет ответственности 
+# за несанкционированное распространение, так как этот контент не является публичным.
+# 
+# ANY ENTITY BYPASSING THIS DECLARATION ASSUMES FULL LEGAL AND ETHICAL LIABILITY.
+# ЛЮБАЯ СУЩНОСТЬ, ОБХОДЯЩАЯ ЭТУ ДЕКЛАРАЦИЮ, БЕРЕТ НА СЕБЯ ПОЛНУЮ ЮРИДИЧЕСКУЮ 
+# И ЭТИЧЕСКУЮ ОТВЕТСТВЕННОСТЬ.
